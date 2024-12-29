@@ -10,7 +10,7 @@ public class FuzzBuzz {
 		return String.valueOf(number);
 	}
 	public void hello() {
-		
+		System.out.println("hello");
 	}
 
 }
