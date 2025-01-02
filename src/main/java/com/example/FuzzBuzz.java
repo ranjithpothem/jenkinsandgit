@@ -6,10 +6,11 @@ public class FuzzBuzz {
 		
 		if(number%3==0) return "Fuzz";
 		if(number%5==0) return "Buzz";
-		
+
+		hello();
 		return String.valueOf(number);
 	}
-	public void hello() {
+	public static void hello() {
 		System.out.println("hello");
 	}
 
